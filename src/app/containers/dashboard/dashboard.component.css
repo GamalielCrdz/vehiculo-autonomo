@@ -1,0 +1,34 @@
+*{padding: 0; margin: 0; box-sizing: 100% 25%;}
+header {
+	text-align: center;
+	position: relative;
+    overflow: hidden;
+    border: solid;
+  border-color: rgba(0, 140, 255, 0.39);
+}
+header .overlay{
+  background-size: cover;
+  position: relative;
+  top:0;
+  width:1400px;
+  height:140px;
+  background-image: url(/src/assets/Fondo3.jpg);
+  color: black;
+  padding:10px;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+h3, p {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 30px;
+}
+
+#robot {
+    position: relative;
+    float: right;
+}
